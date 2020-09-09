@@ -7,11 +7,10 @@
 }
 
 #logo{
-    padding-left: 78px;
     display: flex;
     align-content: center;
     padding: 20px;
-    width: 600px;
+    width: 470px;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 36px;
     font-weight: 900;
@@ -50,6 +49,13 @@
     color: #85b039;
 }
 
+#hamburger {
+    display: none;
+    position: relative;
+}
+#nav {
+    overflow: hidden;
+}
 /*LANGUAGE HOVER DROPDOWN*/
 ul {     
     padding:0;     
@@ -99,3 +105,29 @@ li:hover ul {
     justify-content: flex-end;
     padding-right: 100px;
 }
+
+
+@media screen and (max-width: 976px) {
+    #nav a:not(:first-child) {display: none;}
+    #nav #hamburger {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 976px) {
+    #nav.responsive {position: relative;}
+    #nav.responsive #hamburger {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    @media screen and (max-width: 976px) {
+        #illust, #UX, #sketches, #about, #lan {display: none;}
+   
+    #nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
