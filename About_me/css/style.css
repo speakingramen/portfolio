@@ -1,0 +1,266 @@
+/*HEADER*/
+.main_nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 100px;
+}
+
+#logo{
+    padding-left: 78px;
+    display: flex;
+    align-content: center;
+    padding: 20px;
+    width: 600px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #85b039;
+    position: relative;
+    top:-10px; 
+}
+
+#logo img{
+    position: relative;
+    top: -10px;
+    padding-right: 20px;
+}
+
+.right{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.right a{
+    height: 24px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: normal;
+    color: #2d2d2d;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 40px;
+}
+
+#about a{
+    color: #85b039;
+}
+
+/*LANGUAGE HOVER DROPDOWN*/
+ul {     
+    padding:0;     
+    margin:0;
+}    
+a {    
+    display:block; 
+    text-decoration: none;    
+}    
+li {    
+    display:block;     
+    float:left;    
+}    
+li ul li {    
+    float:none;    
+}    
+li ul {    
+    display:none;     
+    position:absolute;   
+    z-index:1    
+}    
+li:hover ul {    
+    display:block;    
+}    
+    
+/*DROPDOWN STYLING:*/    
+#lan {    
+    height:40px;
+}    
+#lan a {    
+    color:#024E67;     
+    padding:10px 15px 10px 15px;    
+}    
+#lan a:hover {
+    color:#ffffff;    
+}    
+#lan li {    
+    background-color:#FFF;     
+    border:solid 1px rgb(231, 231, 231);      
+    margin-left:-1px;    
+}    
+#lan li:hover {    
+    background-color:#0072BA;   
+}  
+.lang_menu{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+
+/*ABOUT ME*/
+#About_me{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+#text_about {
+    padding-left: 78px;
+    padding-right: 90px;
+    max-width: 600px;
+}
+
+#text_about p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* TOOLS SECTIONS
+.tools_resume h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#tools_about dt, dd{
+    display: block; 
+    float: inline-start;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+#tools_about dt{
+    font-weight: 800;
+}
+
+#tools_about dd{ 
+    margin-left: 20px;
+}
+
+.tools_resume a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+*/
+
+#resume{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*CONTACTS*/
+    .box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border-radius: 20px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  .button {
+    font-size: 1em;
+    padding: 15px;
+    color: white;
+    background: #38B4CF;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+  }
+  .button:hover {
+    background: white;
+    color: #38B4CF;
+    border-style: solid;
+    border-color: #38B4CF;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #F9F9F9;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 100ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #38B4CF;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+
+/*FOOTER*/
+#footer{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer li{
+    padding: 30px;
+}

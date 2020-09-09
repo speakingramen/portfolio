@@ -223,9 +223,9 @@ p::first-letter {
         "ESI"
         "TBA"
     }
-    .container:hover{
-        /*REMOVE HOVER*/
-    }
+    /*REMOVE HOVER
+    .container:hover
+        REMOVE HOVER*/
 }
 
 @media screen and (max-width: 976px) {
@@ -277,6 +277,5 @@ p::first-letter {
 @media screen and (max-width: 582px) {
     #logo img{
         position: relative;
-        top: 20px;
+        top: 20px;}
     }
-}
