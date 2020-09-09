@@ -1,0 +1,101 @@
+/*HEADER*/
+.main_nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 100px;
+}
+
+#logo{
+    padding-left: 78px;
+    display: flex;
+    align-content: center;
+    padding: 20px;
+    width: 600px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #85b039;
+    position: relative;
+    top:-10px; 
+}
+
+#logo img{
+    position: relative;
+    top: -10px;
+    padding-right: 20px;
+}
+
+.right{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.right a{
+    height: 24px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: normal;
+    color: #2d2d2d;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 40px;
+}
+
+#about a{
+    color: #85b039;
+}
+
+/*LANGUAGE HOVER DROPDOWN*/
+ul {     
+    padding:0;     
+    margin:0;
+}    
+a {    
+    display:block; 
+    text-decoration: none;    
+}    
+li {    
+    display:block;     
+    float:left;    
+}    
+li ul li {    
+    float:none;    
+}    
+li ul {    
+    display:none;     
+    position:absolute;   
+    z-index:1    
+}    
+li:hover ul {    
+    display:block;    
+}    
+    
+/*DROPDOWN STYLING:*/    
+#lan {    
+    height:40px;
+}    
+#lan a {    
+    color:#024E67;     
+    padding:10px 15px 10px 15px;    
+}    
+#lan a:hover {
+    color:#ffffff;    
+}    
+#lan li {    
+    background-color:#FFF;     
+    border:solid 1px rgb(231, 231, 231);      
+    margin-left:-1px;    
+}    
+#lan li:hover {    
+    background-color:#0072BA;   
+}  
+.lang_menu{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
