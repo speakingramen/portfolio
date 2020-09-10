@@ -59,6 +59,7 @@ body{
 }
 #nav {
     overflow: hidden;
+    list-style-type: none;
 }
 
 /*LANGUAGE HOVER DROPDOWN*/
@@ -66,23 +67,23 @@ ul {
     padding:0;     
     margin:0;
 }    
-a {    
+#lan a {    
     display:block; 
     text-decoration: none;    
 }    
-li {    
+#lan li {    
     display:block;     
     float:left;    
 }    
-li ul li {    
+#lan li ul li {    
     float:none;    
 }    
-li ul {    
+#lan li ul {    
     display:none;     
     position:absolute;   
     z-index:1    
 }    
-li:hover ul {    
+#lan li:hover ul {    
     display:block;    
 }    
     

@@ -1,0 +1,33 @@
+.UX_skills{
+    text-align: center;
+    background-color: aqua;
+    
+}
+h2{
+    padding: 20px;
+    padding-top: 50px;
+    width: 470px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    color: #85b039;
+    text-align: center;
+}
+
+#programs{
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: block;
+    text-align: center; 
+    padding: 14px 16px;
+    float: left;
+}
