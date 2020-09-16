@@ -1,0 +1,213 @@
+/*HEADER*/
+.main_nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 100px;
+}
+
+#logo{
+    padding-left: 78px;
+    display: flex;
+    align-content: center;
+    padding: 20px;
+    width: 600px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #85b039;
+    position: relative;
+    top:-10px; 
+}
+
+#logo img{
+    position: relative;
+    top: -10px;
+    padding-right: 20px;
+}
+
+.right{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.right a{
+    height: 24px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: normal;
+    color: #2d2d2d;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 40px;
+}
+
+#contacts a{
+    color: #85b039;
+}
+
+/*LANGUAGE HOVER DROPDOWN*/
+ul {     
+    padding:0;     
+    margin:0;
+}    
+a {    
+    display:block; 
+    text-decoration: none;    
+}    
+li {    
+    display:block;     
+    float:left;    
+}    
+li ul li {    
+    float:none;    
+}    
+li ul {    
+    display:none;     
+    position:absolute;   
+    z-index:1    
+}    
+li:hover ul {    
+    display:block;    
+}    
+    
+/*DROPDOWN STYLING:*/    
+#lan {    
+    height:40px;
+}    
+#lan a {    
+    color:#024E67;     
+    padding:10px 15px 10px 15px;    
+}    
+#lan a:hover {
+    color:#ffffff;    
+}    
+#lan li {    
+    background-color:#FFF;     
+    border:solid 1px rgb(231, 231, 231);      
+    margin-left:-1px;    
+}    
+#lan li:hover {    
+    background-color:#0072BA;   
+}  
+.lang_menu{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+
+/*CONTACT FORM*/
+h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#email p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: rgb(118, 118, 118);
+}
+
+.contact_container{ 
+font-family: 'Nunito Sans', sans-serif;
+display: flex;
+justify-content: flex-start;
+padding-left: 180px;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .button {
+    background-color: #fb8c1d;
+    color: white;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    position: relative;
+  }
+  
+  .button:hover {
+    background-color: #ee771b;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sns {
+    padding-left: 180px;
+}
+.sns p{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #678c27;
+}
+.sns a{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/*PROGRESS BAR*/
+#progressbar{
+    width: 100%;
+    background-color: grey;
+}
+
+#messagebar{
+    width: 1%;
+    height: 30px;
+    background-color: green;
+    
+}
+
+
+
+
+/*FOOTER*/
+#footer{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#footer li{
+    padding: 30px;
+    list-style-type: none;
+}

@@ -1,0 +1,32 @@
+
+/*PROGRESS BAR*/
+#progressbar{
+    width: 100%;
+    background-color: grey;
+}
+
+#messagebar{
+    width: 1%;
+    height: 30px;
+    background-color: green;
+    
+} 
+
+
+.button {
+    background-color: #fb8c1d;
+    color: white;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    position: relative;
+  }
+  
+  .button:hover {
+    background-color: #ee771b;
+  }

@@ -8,17 +8,24 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap" 
         rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- jQuery -->
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"
+        ></script>
     </head>
     
     <body>
-    <!--Main Nav-->
-        <div id="header">
+         <!--Main Nav-->
+         <div id="header">
             <!--Dropdown menu for language-->
                     <ul id='lan' class="lang_menu">    
-                <li id="lang"><a href='#'>Language</a>    
+                <li><a href='#'>Language</a>    
                 <ul>    
-                    <li id="lang"><a href='#'>English</a></li>    
-                    <li id="lang"><a href='#'>日本語</a></li>    
+                    <li><a href='#'>English</a></li>    
+                    <li><a href='#'>日本語</a></li>    
                 </ul>    
                 </li>    
             </ul> 
@@ -34,19 +41,22 @@
             <ul id='nav' class="right">
                 <li id="illust"><a href="#">Illustrations</a></li>
                 <li id="UX"><a href="#">UX Projects</a></li>
-                <li id="sketches"><a href="#">Sketches</a></li>
                 <li id="about"><a href="#">About me</a></li>
-
+                <li id="contacts"><a href="#">Contacts</a></li>
+                <li id="hamburger"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></li>
                 </ul>
-            
+
             </div>    
         </div>
+
     <!--Body-->
         <div class="text_UX">
             <div id="accessible"><p>Accessible</p></div>
             <div id="creative"><p>Creative</p></div>
             <div id="informative"><p>Informative</p></div>
         </div>
+
         <div class="UX_projects">
            
             <div class="container">

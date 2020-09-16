@@ -50,40 +50,39 @@ body{
     padding-right: 40px;
 }
 
-#UX a{
+#about a{
     color: #85b039;
 }
 
-#nav #hamburger {
+#hamburger {
     display: none;
+    position: relative;
 }
 #nav {
     overflow: hidden;
-    list-style-type: none;
 }
-
 /*LANGUAGE HOVER DROPDOWN*/
 ul {     
     padding:0;     
     margin:0;
 }    
-#lan a {    
+a {    
     display:block; 
     text-decoration: none;    
 }    
-#lan li {    
+li {    
     display:block;     
     float:left;    
 }    
-#lan li ul li {    
+li ul li {    
     float:none;    
 }    
-#lan li ul {    
+li ul {    
     display:none;     
     position:absolute;   
     z-index:1    
 }    
-#lan li:hover ul {    
+li:hover ul {    
     display:block;    
 }    
     
@@ -111,6 +110,7 @@ ul {
     justify-content: flex-end;
     padding-right: 100px;
 }
+
 
 /*UX PROJECT KEYWORDS*/
 #accessible, #creative, #informative{
@@ -237,22 +237,27 @@ p::first-letter {
     }
   }
   
-@media screen and (max-width: 976px) {
+  @media screen and (max-width: 976px) {
     #nav.responsive {position: relative;}
     #nav.responsive #hamburger {
       position: absolute;
       right: 0;
       top: 0;
     }
+    #nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 
-@media screen and (max-width: 976px) {
-        #illust, #UX, #sketches, #about, #lan {display: none;}
+    @media screen and (max-width: 976px) {
+        #illust, #UX, #contacts, #about, #lan {display: none;}
    
     #nav.responsive a {
       float: none;
       display: block;
       text-align: left;
-    } 
+    }
 
     @media screen and (max-width: 976px) {
         #logo img{
@@ -279,4 +284,4 @@ p::first-letter {
     #logo img{
         position: relative;
         top: 20px;}
-    }
+}

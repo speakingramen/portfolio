@@ -124,7 +124,7 @@ li:hover ul {
     }
 
     @media screen and (max-width: 976px) {
-        #illust, #UX, #sketches, #about, #lan {display: none;}
+        #illust, #UX, #contacts, #about, #lan {display: none;}
    
     #nav.responsive a {
       float: none;
