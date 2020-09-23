@@ -17,12 +17,22 @@
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"
             ></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178922926-1"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-178922926-1');
+            </script>
+
     </head>
 
     <body>
-        <!--NAVIGATION-->
-        <div id="header">
-            <!--Main Nav-->
+         <!--Main Nav-->
+         <div id="header">
             <!--Dropdown menu for language-->
                     <ul id='lan' class="lang_menu">    
                 <li><a href='#'>Language</a>    
@@ -37,7 +47,7 @@
             <div class="main_nav">
             
                 <div id="logo">
-                    <img src="../About_me/images/logo_small.png" alt="small logo">NAOMI KITAZAWA
+                    <img src="../header/images/logo_small.png" alt="small logo">NAOMI KITAZAWA
                 </div>
                 
             <!--Nav menu hover -->
@@ -46,8 +56,10 @@
                 <li id="UX"><a href="https://speakingramen.github.io/portfolio/UX_projects">UX Projects</a></li>
                 <li id="about"><a href="https://speakingramen.github.io/portfolio/About_me">About me</a></li>
                 <li id="contacts"><a href="https://speakingramen.github.io/portfolio/Contacts">Contacts</a></li>
+                <li id="hamburger"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a></li>
                 </ul>
-            
+
             </div>    
         </div>
 
