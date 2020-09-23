@@ -3,30 +3,61 @@
     <head>
         <title>Portfolio</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="../portfolio/style.css" type="text/css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap" 
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-        <h1>Illustrator</h1>
-        <h1>UX Designer</h1>
-        <div class="gif">
-            <img src="homepage images/desert copy.gif">
-        </div>
 
-        <div class="UX_skills">
-            <h2>Programs I use</h2>
-            <ul id='programs'>
-                <li>Adobe XD</li>   
-                <li>Axure</li>
-                <li>After Effects</li>
-                <li>Clip Studio Paint</li>
-                <li>Figma</li>
-                <li>Illustrator</li>
-                <li>Photoshop</li>
-            </ul>
-        </div>
+        <ul class="fly-in-text hidden">
+            <li>I</li>
+            <li>L</li>
+            <li>L</li>
+            <li>U</li>
+            <li>S</li>
+            <li>T</li>
+            <li>R</li>
+            <li>A</li>
+            <li>T</li>
+            <li>O</li>
+            <li>R</li>
+        </ul>
+        <br>
+        <ul class="fly-in-text2 hidden">
+            <li>U</li>
+            <li>X</li>
+            <li> </li>
+            <li>D</li>
+            <li>E</li>
+            <li>S</li>
+            <li>I</li>
+            <li>G</li>
+            <li>N</li>
+            <li>E</li>
+            <li>R</li>
+        </ul>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript">
+             $(function() {
+                
+                setTimeout(function() {
+                    $('.fly-in-text').removeClass('hidden');
+                }, 500);
+            })();
+        </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+     $(function() {
+        
+        setTimeout(function() {
+            $('.fly-in-text2').removeClass('hidden');
+        }, 500);
+    })();
+</script>
+
     </body>

@@ -41,12 +41,11 @@
                 </div>
                 
             <!--Nav menu hover -->
-                <ul id='nav' class="right">
+            <ul id='nav' class="right">
                 <li id="illust"><a href="#">Illustrations</a></li>
-                <li id="UX"><a href="#">UX Projects</a></li>
-                <li id="about"><a href="#">About me</a></li>
-                <li id="contacts"><a href="#">Contacts</a></li>
-
+                <li id="UX"><a href="https://speakingramen.github.io/portfolio/UX_projects">UX Projects</a></li>
+                <li id="about"><a href="https://speakingramen.github.io/portfolio/About_me">About me</a></li>
+                <li id="contacts"><a href="https://speakingramen.github.io/portfolio/Contacts">Contacts</a></li>
                 </ul>
             
             </div>    
@@ -75,25 +74,6 @@
                         <li>Photoshop</li>
                     </ul>
                 </div>
-                <!--RESUME
-                <div id="resume">
-                    <a href="#">Resume</a>
-                </div>
-                -->
-
-                <!--CONTACT BUTTON
-                <div class="box">
-                    <a class="button" href="#popup1">Lets chat up!</a>
-                </div>
-                
-                <div id="popup1" class="overlay">
-                    <div class="popup">
-                        <a class="close" href="#">&times;</a>
-                        <div class="content">
-                <img src="../About_me/images/contact.png"> 
-                        </div>
-                    </div>
-                </div>-->
             </div>
 
             <div id="about_img">
@@ -108,5 +88,16 @@
             <li><a href="#"><img src="../footer/images/LinkedIN_black.png"></a></li>
             <li><a href="#"><img src="../footer/images/Twitter_black.png"></a></li>
         </ul>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("right");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+            </script>
     </body>
 </html>

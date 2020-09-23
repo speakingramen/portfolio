@@ -156,16 +156,15 @@ input[type=text], select, textarea {
     background-color: #ee771b;
   }
   
-  .container {
+  .contact_container {
+    display: flex;
+    justify-content: center;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.sns {
-    padding-left: 180px;
-}
 .sns p{
     display: flex;
     justify-content: flex-start;
@@ -173,6 +172,7 @@ input[type=text], select, textarea {
     font-weight: 700;
     font-size: 26px;
     color: #678c27;
+    padding-left: 180px;
 }
 .sns a{
     display: flex;
@@ -180,23 +180,8 @@ input[type=text], select, textarea {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
     font-size: 20px;
+    padding-left: 180px;
 }
-
-
-/*PROGRESS BAR*/
-#progressbar{
-    width: 100%;
-    background-color: grey;
-}
-
-#messagebar{
-    width: 1%;
-    height: 30px;
-    background-color: green;
-    
-}
-
-
 
 
 /*FOOTER*/
@@ -211,3 +196,30 @@ input[type=text], select, textarea {
     padding: 30px;
     list-style-type: none;
 }
+
+
+
+@media screen and (max-width: 976px) {
+    #nav a:not(:first-child) {display: none;}
+    #nav #hamburger {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 976px) {
+    #nav.responsive {position: relative;}
+    #nav.responsive #hamburger {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    @media screen and (max-width: 976px) {
+        #illust, #UX, #contacts, #about, #lan {display: none;}
+   
+    #nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }

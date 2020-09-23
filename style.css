@@ -1,33 +1,86 @@
-.UX_skills{
-    text-align: center;
-    background-color: aqua;
-    
-}
-h2{
-    padding: 20px;
-    padding-top: 50px;
-    width: 470px;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 26px;
-    font-weight: 800;
-    color: #85b039;
-    text-align: center;
-}
-
-#programs{
-    display: inline-block;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    list-style-type: none;
-    padding: 10px;
-    overflow: hidden;
+*{
     margin: 0;
     padding: 0;
 }
-li{
-    display: block;
-    text-align: center; 
-    padding: 14px 16px;
-    float: left;
+body{
+    background-color: #000;
 }
+
+.fly-in-text {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.fly-in-text li {
+    display: inline-block; 
+    margin-right: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    color: #ffffff;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+
+.fly-in-text2 {
+    padding-top: 240px;
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.fly-in-text2 li {
+    display: inline-block; 
+    margin-right: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    color: #ffffff;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+
+.fly-in-text li:last-child {
+    margin-right: 0;
+}
+
+.fly-in-text.hidden li {
+    opacity: 0;
+}
+
+
+.fly-in-text2 li:last-child {
+    margin-right: 0;
+}
+
+.fly-in-text2.hidden li {
+    opacity: 0;
+}
+
+
+.fly-in-text.hidden li:nth-child(1) {transform: translateX(-200px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(2) {transform: translateX(30px) translateY(130px);}
+.fly-in-text.hidden li:nth-child(3) {transform: translateX(-130px) translateY(-80px);}
+.fly-in-text.hidden li:nth-child(4) {transform: translateX(10px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(5) {transform: translateX(-270px) translateY(200px);}
+.fly-in-text.hidden li:nth-child(6) {transform: translateX(-20px) translateY(20px);}
+.fly-in-text.hidden li:nth-child(7) {transform: translateX(150px) translateY(120px);}
+.fly-in-text.hidden li:nth-child(8) {transform: translateX(20px) translateY(-40px);}
+.fly-in-text.hidden li:nth-child(9) {transform: translateX(-45px) translateY(90px);}
+.fly-in-text.hidden li:nth-child(10) {transform: translateX(75px) translateY(-100px);}
+.fly-in-text.hidden li:nth-child(11) {transform: translateX(200px) translateY(30px);}
+
+
+.fly-in-text2.hidden li:nth-child(1) {transform: translateX(-200px) translateY(-200px);}
+.fly-in-text2.hidden li:nth-child(2) {transform: translateX(30px) translateY(130px);}
+.fly-in-text2.hidden li:nth-child(4) {transform: translateX(10px) translateY(-200px);}
+.fly-in-text2.hidden li:nth-child(5) {transform: translateX(-270px) translateY(200px);}
+.fly-in-text2.hidden li:nth-child(6) {transform: translateX(-20px) translateY(20px);}
+.fly-in-text2.hidden li:nth-child(7) {transform: translateX(150px) translateY(120px);}
+.fly-in-text2.hidden li:nth-child(8) {transform: translateX(20px) translateY(-40px);}
+.fly-in-text2.hidden li:nth-child(9) {transform: translateX(-45px) translateY(90px);}
+.fly-in-text2.hidden li:nth-child(10) {transform: translateX(75px) translateY(-100px);}
+.fly-in-text2.hidden li:nth-child(11) {transform: translateX(200px) translateY(30px);}
